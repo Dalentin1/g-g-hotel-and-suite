@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selector</title>
+    <style>
+      #first {
+        color: blue;
+      }
+      .second {
+        color: brown;
+      }
+      ul > ul > li {
+        color: blue;
+      }
+      p {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 20px;
+        font-style: italic;
+        text-align: center;
+        text-transform: uppercase;
+        text-indent: 3;
+        color: red important;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="first">This is cool</p>
+    <p>This amazing</p>
+    <p>This is super amazing</p>
+    <p class="second">This is super cool</p>
+    <ul>
+      <li>number one</li>
+      <li>number two</li>
+      <ul>
+        <li>number one</li>
+        <li>number two</li>
+      </ul>
+      <li>nuumber three</li>
+    </ul>
+  </body>
+</html>
