@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+    <style>
+      .logo {
+        color: white;
+        padding-top: 15px;
+      }
+      nav {
+        display: flex;
+        background-color: black;
+      }
+      li {
+        display: inline;
+        padding: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      .search {
+        padding-top: 15px;
+      }
+      a:hover {
+        color: red;
+        background-color: white;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin-top: 10px;
+        border-radius: 0px 10px 20px 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Adeola kay</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Education</a></li>
+      </ul>
+      <div class="search">
+        <input type="text" placeholder="search" />
+      </div>
+    </nav>
+    <div class="box"></div>
+  </body>
+</html>
