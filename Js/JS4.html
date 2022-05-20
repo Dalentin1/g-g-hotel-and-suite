@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+      *{
+          box-sizing: border-box;
+          padding: 0px;
+          margin: 0px;
+          overflow: hidden;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+    nav {
+      background-color: black;
+      display: flex;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    li {
+      display: inline;
+      padding: 15px;
+      color: white;
+    }
+    a:hover {
+      background-color: white;
+      color: red;
+      border-top: 2px solid blue;
+      padding: 15px;
+    }
+
+    .logo {
+      flex: auto;
+      font-weight: bold;
+      color: white;
+      padding-left: 100px;
+      padding: 15px;
+
+
+    }
+
+    ul {
+        list-style: none;
+        padding: 15px;
+    }
+
+    .box{
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        margin-top: 10px;
+        display: none;
+    }
+
+    p{
+        width: 100%;
+        height: 3px;
+        background-color: black;
+        margin-top: 3px;
+    }
+    
+    @media screen and (max-width:600px){
+        li {
+            display: block;
+            text-align: center;
+        }
+        ul {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 40px;
+            background-color: black;
+            transform: translate(100%);
+        }
+
+        .box {
+            display: block;
+        }
+        
+    }
+  </style>
+  <body>
+    <nav>
+      <div class="logo">Adeola Kay</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="box"><p><p><p></p></p></p></div>
+    </nav>
+
+
+
+
+    <script>
+        let burger = document.querySelector(".box");
+        let nav = document.querySelector("ul");
+        
+        burger.onclick = function () {
+            if (nav.style.transform==="translate(100%)") {
+            nav.style.transform = "translate(0%)";
+            } else (nav.style.transform = "translate(100%)")
+        }
+    </script>
+  </body>
+</html>

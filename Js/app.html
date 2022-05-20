@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolean App</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        input{
+            width: 70px;
+            text-align: center;
+            border: 1px solid red;
+        }
+
+        input[type=submit] {
+            width: 200px;
+            height: 30px;
+            border: none;
+            background-color: red;
+        }
+
+        input:focus{
+            background-color: aquamarine;
+        }
+        main{
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="head">Boolean Game</h1>
+    <main>
+    <input type="number" id="one"> <select name="" id=""></select><input type="number" id="two"> <br><br>
+    <input type="submit" value="Check" id="check">
+    </main>
+
+
+
+
+
+    <script>
+        const head = document.getElementById("head");
+        const check = document.getElementById("check")
+        check.onclick = function () {
+            const one = document.getElementById("one").value;
+            const two = document.getElementById("two").value;
+            head.innerHTML=one;
+
+            if (one < two) {
+                head.innerHTML= "True"; 
+            }
+            else (head.innerHTML= "False")
+        };
+    </script>
+</body>
+</html>

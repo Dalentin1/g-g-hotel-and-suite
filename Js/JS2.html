@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <p id="box">Blood is thicker than water</p>
+  <input type="button" id="btn" value="click" />
+  <body>
+    <script>
+      const laptop = {
+        laptopName: "Hp Pavilion",
+        size: "15 inches",
+        ram: "6gb",
+        operatingSysytem: "windows 11",
+        hardDisk: "500 gb (SSD)",
+        processor: "core i5, 3ghz",
+      };
+
+      window.alert("Your system is" + " " + laptop.ram);
+
+      let x = 9;
+      y = x ** 2;
+
+      let button = document.getElementById("btn");
+      let box = document.getElementById("box");
+
+      button.onclick = function () {
+          box.style.color="red"
+      }
+    </script>
+  </body>
+</html>

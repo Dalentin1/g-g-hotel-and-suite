@@ -1,6 +1,7 @@
 nav {
   display: flex;
   background-color: wheat;
+  flex-wrap: wrap;
 }
 a {
   text-decoration: none;
@@ -66,7 +67,8 @@ a:hover {
   border: 1px;
   border-radius: 100%;
   margin-right: 60px;
-  width: 500px;
+  width: 400px;
+  height: 400px;
 }
 
 .para,
@@ -101,6 +103,8 @@ main {
 .grid-items2 {
   grid-row: 2/3;
   grid-column: 1/2;
+  text-align: center;
+  padding-right: 15px;
 }
 
 .grid-items1 h2 {
