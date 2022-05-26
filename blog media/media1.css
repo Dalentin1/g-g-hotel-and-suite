@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+
+table,
+td {
+  border: 2px solid black;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+table {
+  width: 400;
+  height: 400;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*="ins-"] {
+  float: right;
+  width: 100%;
+  padding: 15px;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  table {
+    width: 100%;
+  }
+
+  body {
+    background-color: blueviolet;
+  }
+}

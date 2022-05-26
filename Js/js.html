@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Script</title>
+    <style>
+      body {
+        color: black;
+      }
+    </style>
   </head>
   <body id="main">
     <h1 class="box">Hello world</h1>
@@ -25,6 +30,7 @@
     <input type="button" value="click here" id="btn" />
     <input type="button" value="Mode" id="btn2" />
     <script>
+      let body = document.getElementById("main");
       document.querySelector(".box").innerHTML = "yeap";
       document.querySelector("#box").innerHTML = "yeap";
       document.querySelector("H1").style.backgroundColor = "red";
@@ -47,7 +53,13 @@
         document.getElementById("table").innerHTML = "i am super amazing";
       };
       document.getElementById("btn2").onclick = function () {
-        document.getElementById("main").style.backgroundColor = "black";
+        if (main.style.backgroundColor === "white") {
+          main.style.backgroundColor = "black";
+        } else main.style.backgroundColor = "white";
+
+        if (main.style.color === "black") {
+          main.style.color = "white";
+        } else main.style.color = "black";
       };
     </script>
   </body>

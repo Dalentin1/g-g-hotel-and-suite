@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: firebrick;
+}
+
+ @media only screen and (max-width:600px) {
+        body {
+            background-color: lightblue;
+        }
+        main{
+            width: 100%;
+        }
+        .adv{
+            display: inline;
+        }
+    }

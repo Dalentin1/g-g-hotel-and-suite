@@ -1,0 +1,62 @@
+ *{
+        box-sizing: border-box;
+    }
+     table,
+    td {
+      border: 2px solid black;
+      padding: 10px;
+      border-collapse: collapse;
+    }
+
+    table{
+        float: left;
+        background-color: blueviolet;
+
+    }
+
+    .data-1{
+      width: 20%;
+    }
+
+    .one,
+    tr{
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .row::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    [class*="data-"] {
+        float: right;
+        width: 100%;
+        padding: 15px;
+    }
+
+    th{
+      background-color:darkred;
+      color: white;
+      width: auto;
+    }
+
+    .scroll {
+      background-color: blueviolet;
+      color: red;
+      padding: 10px;
+    }
+
+    @media only screen and (max-width:600px) {
+        table {
+            background-color: lightblue;
+        }
+    }
+
+    @media only screen and (min-width:600px) {
+      .col{
+        width: 75%;
+      }
+    }

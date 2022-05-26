@@ -54,6 +54,9 @@ a {
   color: black;
 }
 
+a:hover{
+  border-bottom: 3px solid rgb(163, 10, 10);
+}
 ul {
   list-style: none;
   padding: 25px;
