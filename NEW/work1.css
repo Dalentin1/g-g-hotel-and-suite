@@ -169,6 +169,222 @@ h1 {
   right: 400px;*/
 }
 
+@media only screen and (max-width: 1936px) {
+  /* completed */
+   /* .nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(236, 235, 235);
+    width: 100%;
+    height: 92%;
+    padding-right: 55px;
+  } 
+
+  a{
+    font-size: 35px;
+  }
+
+  li {
+    display: inline;
+    padding-right: 55px;
+  }
+
+  ul {
+    margin-top: 70px;
+    padding: 15px;
+  }
+
+  .red-circle {
+    border-radius: 100%;
+    background-color: rgb(180, 16, 16);
+    height: 40px;
+    width: 40px;
+    color: rgb(95, 8, 8);
+    position: relative;
+    left: -100px;
+    top: 77px;
+  }
+
+  .grey-circle {
+    border-radius: 100%;
+    background-color: grey;
+    height: 25px;
+    width: 25px;
+    color: grey;
+    position: relative;
+    left: -119px;
+    top: 75px;
+  }
+
+  .para{
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  h1{
+    font-size: 80px;
+  }
+
+  .para2{
+    font-size: 30px;
+    margin-top: -35px;
+  }
+  .main{
+    margin-left: 200px;
+    margin-top: 80px;
+  }
+
+  .img {
+    margin-left: 300px;
+    margin-top: 80px;
+  }
+
+  .main-img {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    position: relative;
+    top: 20px;
+    left: -150px;
+    
+  }
+
+  .cresent1 {
+    background-color: grey;
+    color: grey;
+    border: 1px;
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: -500px;
+    left: 139px;
+    z-index: -1;
+  }
+
+  .cresent2 {
+    background-color: rgb(88, 118, 138);
+    color: grey;
+    border: 1px;
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: -480px;
+    left: -200px;
+    z-index: -1;
+  } */
+}
+
+@media only screen and (max-width: 1790px) {
+  /* completed */
+   /* .nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(236, 235, 235);
+    width: 100%;
+    height: 92%;
+    padding-right: 55px;
+  } 
+
+  a{
+    font-size: 35px;
+  }
+
+  li {
+    display: inline;
+    padding-right: 55px;
+  }
+
+  ul {
+    margin-top: 70px;
+    padding: 15px;
+  }
+
+  .red-circle {
+    border-radius: 100%;
+    background-color: rgb(180, 16, 16);
+    height: 40px;
+    width: 40px;
+    color: rgb(95, 8, 8);
+    position: relative;
+    left: -100px;
+    top: 77px;
+  }
+
+  .grey-circle {
+    border-radius: 100%;
+    background-color: grey;
+    height: 25px;
+    width: 25px;
+    color: grey;
+    position: relative;
+    left: -119px;
+    top: 75px;
+  }
+
+  .para{
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  h1{
+    font-size: 80px;
+  }
+
+  .para2{
+    font-size: 30px;
+    margin-top: -35px;
+  }
+  .main{
+    margin-left: 200px;
+    margin-top: 80px;
+  }
+
+  .img {
+    margin-left: 300px;
+    margin-top: 80px;
+  }
+
+  .main-img {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    position: relative;
+    top: 20px;
+    left: -150px;
+    
+  }
+
+  .cresent1 {
+    background-color: grey;
+    color: grey;
+    border: 1px;
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: -500px;
+    left: 139px;
+    z-index: -1;
+  }
+
+  .cresent2 {
+    background-color: rgb(88, 118, 138);
+    color: grey;
+    border: 1px;
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: -480px;
+    left: -200px;
+    z-index: -1;
+  } */
+}
+
 @media only screen and (max-width: 1040px) {
   body{
     overflow-x: hidden;
