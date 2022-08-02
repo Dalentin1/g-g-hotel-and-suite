@@ -1,0 +1,385 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/background-adare-restaurant.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    height: 105%;
+
+
+}
+
+header {
+    height: 118px;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    height: 50px;
+}
+
+nav {
+    background-color: rgba(29, 27, 27, 0.411);
+    height: 30px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 184px;
+    margin-top: -50px;
+    max-width: 670px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.623);
+    font-size: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.main {
+    height: 430px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: -7rem;
+}
+
+footer {
+    background-color: rgba(5, 5, 5, 0.76);
+    height: 80px;
+    width: 600px;
+}
+
+h1 {
+    font-size: 50px;
+    color: whitesmoke;
+    margin-top: 23px;
+    margin-left: 9px;
+}
+
+p {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.836);
+    padding-left: 250px;
+    padding-right: 140px;
+    padding-bottom: 20px;
+    margin-left: -138px;
+    margin-top: -12px;
+    margin-right: -24px;
+}
+
+a {
+    font-size: 11px;
+    color: white;
+}
+
+.map {
+    padding-bottom: 20px;
+    /* padding-top: -1.5rem; */
+    text-align: center;
+    margin-top: -10rem;
+}
+
+footer p {
+    font-size: 10px;
+    color: rgba(240, 248, 255, 0.856);
+    padding-top: 20px;
+    text-align: center;
+}
+ 
+/* media query */
+@media only screen and (max-width:600px) {
+    /* For mobile phones: for 600px and down */
+
+    header {
+        height: 118px;
+    }
+
+    nav {
+        flex-direction: column;
+        height: 100px;
+        max-width: 360px;
+        padding: 100px;
+        margin: auto;
+        margin-top: -60px;
+    }
+
+    nav a {
+        padding-top: 15px;
+        margin-left: -35px;
+    }
+
+    .main {
+        margin-top: -60px;
+    }
+
+    h1 {
+        font-size: 45px;
+        padding-left: 25px;
+    }
+
+    p {
+        font-size: 11px;
+        padding-left: 590px;
+        margin-left: -550px;
+        padding-right: 50px;
+        margin-top: -25px;
+        padding-bottom: 0px;
+
+    }
+
+    iframe {
+        height: 130px;
+        max-width: 80%;
+        margin-top: -65px;
+    }
+
+    footer {
+        max-width: 291px;
+        height: 32px;
+        margin: auto;
+        padding-top: 22px;
+        margin-top: -6px;
+    }
+
+    footer p {
+        padding-top: 15px;
+        padding-left: 120px;
+        margin-left: -140px;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (min-width:601px) {
+    /* portrait tablets and large phones, 601px and up */
+
+    nav {
+        margin-left: 75px;
+        max-width: 500px;
+    }
+
+    footer {
+        max-width: 350px;
+        margin: auto;
+        padding-left: 20px;
+        height: 65px;
+    }
+
+    footer p {
+        padding-top: 25px;
+        padding-left: 120px;
+        margin-left: -140px;
+        padding-right: 0px;
+    }
+
+    .main {
+        margin-top: -20px;
+    }
+
+    iframe {
+        max-width: 450px;
+        height: 130px;
+    }
+
+}
+
+@media only screen and (min-width:640px) {
+    /* For Microsoft Lumia 550 640px */
+
+    .main {
+        margin-top: -40px;
+    }
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    p {
+        padding-top: -30px;
+        padding-bottom: 0px;
+    }
+
+    iframe {
+        max-width: 450px;
+        height: 200px;
+        margin-top: -50px;
+    }
+
+    footer {
+        margin-top: 10px;
+        width: 300px;
+        height: 35px;
+    }
+
+    footer p {
+        padding-top: 17px;
+        font-size: 6px;
+    }
+
+
+}
+
+@media only screen and (min-width:712px) {
+
+    /* landscape tablets, 712px and up */
+    nav {
+        margin-left: 95px;
+        max-width: 550px;
+        margin-top: -30px;
+        padding: 18px;
+        padding-top: 15px;
+    }
+
+    nav a {
+        font-size: 8px;
+    }
+
+    header img {
+        height: 70px;
+    }
+
+    footer {
+        height: 30px;
+        padding-top: 8px;
+    }
+
+}
+
+@media only screen and (min-width:800px) {
+
+    /* Screen 800px and up*/
+    nav {
+        margin-left: 75px;
+        max-width: 650px;
+    }
+
+    nav a {
+        font-size: 8px;
+        padding-top: -20px;
+    }
+
+    header {
+        margin-top: -25px;
+    }
+
+    .main {
+        margin-top: 40px;
+    }
+
+    iframe {
+        height: 150px;
+        margin-top: -60px;
+    }
+
+    footer {
+        margin-top: -5px;
+    }
+
+}
+
+@media only screen and (min-width:896px) {
+
+    /* Screen 896px and up*/
+    /* navigation */
+    nav {
+        margin-left: 160px;
+        max-width: 600px;
+    }
+
+    nav a {
+        font-size: 10px;
+        padding-top: -20px;
+    }
+
+}
+
+@media only screen and (min-width:900px) {
+
+    /* Screen 900px and up*/
+    nav {
+        margin-left: 170px;
+        max-width: 600px;
+    }
+
+    nav a {
+        font-size: 10px;
+        padding-top: -20px;
+    }
+
+}
+
+@media only screen and (min-width:992px) {
+
+    /* Screen 992px and up*/
+    nav {
+        margin-left: 200px;
+        max-width: 600px;
+    }
+
+    nav a {
+        font-size: 10px;
+        padding-top: -20px;
+    }
+
+}
+
+@media only screen and (min-width:1024px) {
+
+    /* Screen 1024px and up*/
+    nav {
+        margin-left: 165px;
+        max-width: 750px;
+        padding: 20px;
+        padding-top: 10px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .main {
+        margin-top: 10px;
+    }
+
+    iframe {
+        margin-top: -60px;
+       max-width: 80rem;
+       height: 200px;
+    }
+
+    footer {
+        padding-top: 40px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width:1250px) {
+
+    /* Screen 1250px and up*/
+    nav {
+        margin-left: 247px;
+        max-width: 800px;
+        padding: 20px;
+    }
+
+    nav a {
+        font-size: 13px;
+        margin-top: -5px;
+    }
+
+
+    .main {
+        margin-top: 40px;
+    }
+
+    iframe {
+        width: 800px;
+        height: 180px;
+    }
+}
