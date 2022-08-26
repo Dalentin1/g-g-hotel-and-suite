@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products | God Grace Stores </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart-fix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/90ac909758.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="container">
+        <div class="nav container nav-bar">
+            <a href="index.html"> <img src="images/Logos/My project-God Grace store png (1).png" alt="picture of logo"
+                    width="95px" class="logo"> </a>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" alt="" id="cart-icon">
+            <img src="images/menu.png" alt="picture of menu" class="menu-icon" onclick="menutoggle()">
+            <div class="cart">
+                <h2 class="cart-title">Your cart</h2>
+                <div class="cart-content">
+                    <div class="cart-box">
+                    </div>
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <button type="button" class="btn-buy">Buy Now</button>
+                <img src="images/close (1).png" alt="" id="close-cart">
+            </div>
+        </div>
+    </header>
+    <div class="small-container">
+        <div class="row row-2">
+            <h2 class="section-title">All Products</h2>
+            <select>
+                <option>Default sorting</option>
+                <option>Sort by price</option>
+                <option>Sort by popularity</option>
+                <option>Sort by rating</option>
+                <option>Sort by sales</option>
+            </select>
+        </div>
+        <div class="row shop-content shop container">
+            <div class="col-4 product-box">
+                <img src="images/product-1.jpg" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Red printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <span class="price">$25</span>
+                <img src="images/cart.png" alt="" class="add-cart">
+            </div>
+            <div class="col-4 product-box">
+                <img src="images/Phones/Huawie/huawei p40.png" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">huawei p40</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <span class="price">$250.30</span>
+                <img src="images/cart.png" alt="" class="add-cart">
+            </div>
+            <div class="col-4 product-box">
+                <img src="images/Earbuds/Samsung Galaxy Earbuds White1.png" alt="Picture of new Product"
+                    class="product-img">
+                <h4 class="product-title">Samsung Galaxy Earbuds White</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <span class="price">$50.25</span>
+                <img src="images/cart.png" alt="" class="add-cart">
+            </div>
+            <div class="col-4 product-box">
+                <img src="images/product-2.jpg" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Black Shoe Men</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <span class="price">$250.30</span>
+                <img src="images/cart.png" alt="" class="add-cart">
+            </div>
+        </div>
+        <div class="row shop-content shop container">
+            <div class="col-4 product-box">
+                <img src="images/product-8.jpg" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Black Wrist Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <span class="price">$110.50</span>
+                <img src="images/cart.png" alt="" class="add-cart">
+            </div>
+            <div class="col-4 product-box">
+                <img src="images/Phones/Huawie/Huawei P50 Pocket.png" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Huawei P50 Pocket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <span class="price">$200</span>
+                <img src="images/cart.png" alt="" class="add-cart">
+            </div>
+            <div class="col-4 product-box">
+                <img src="images/product-7.jpg" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Stockins</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <span class="price">$25</span>
+                <img src="images/cart.png" alt="" class="add-cart">
+            </div>
+            <div class="col-4 product-box">
+                <img src="images/Bikes/Product-bike5.png" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Red Bull BMX</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <span class="price">$1200</span>
+                <img src="images/cart.png" alt="" class="add-cart">
+            </div>
+        </div>
+        <div class="row shop-content shop container">
+            <div class="col-4 product-box">
+                <img src="images/product-9.jpg" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Louis Vittuion Black Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <span class="price">$100</span>
+                <img src="images/cart.png" alt="" class="add-cart">
+            </div>
+            <div class="col-4 product-box">
+                <img src="images/Desktop/Laptop.png" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Hp Pavillion</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <span class="price">$800</span>
+                <img src="images/cart.png" alt="" class="add-cart">
+            </div>
+            <div class="col-4 product-box">
+                <img src="images/product-10.jpg" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Black Puma Shop</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <span class="price">$300</span>
+                <img src="images/cart.png" alt="" class="add-cart">
+            </div>
+            <div class="col-4 product-box">
+                <img src="images/Playstation/Sony PlayStation 5.png" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Sony PlayStation 5</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <span class="price">$1500.35</span>
+                <img src="images/cart.png" alt="" class="add-cart">
+            </div>
+        </div>
+        <div class="row shop-content shop container">
+            <div class="col-4 product-box">
+                <img src="images/Desktop/Desktop3.png" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Apple Mac</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <span class="price">$5000</span>
+                <img src="images/cart.png" alt="" class="add-cart">
+            </div>
+            <div class="col-4 product-box">
+                <img src="images/product-11.jpg" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Red printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <span class="price">$70.45</span>
+                <img src="images/cart.png" alt="" class="add-cart">
+            </div>
+            <div class="col-4 product-box">
+                <img src="images/product-10.jpg" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Sneakers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <span class="price">$160.50</span>
+                <img src="images/cart.png" alt="" class="add-cart">
+            </div>
+            <div class="col-4 product-box">
+                <img src="images/Bikes/Product-bike2.png" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Red Curise Bike</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <span class="price">$2500</span>
+                <img src="images/cart.png" alt="" class="add-cart">
+            </div>
+        </div>
+        <div class="page-btn">
+            <a href="product.html"><span>1</span></a>
+            <a href="product2.html"><span>2</span></a>
+            <a href="product3.html"><span>3</span></a>
+            <a href="product4.html"><span>4</span></a>
+            <span>&#8594</span>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Dwonlad App for Andorid and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="Logo Google play-store">
+                        <img src="images/app-store.png" alt="Logo Apple app-store">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/Logos/My project-God Grace store png (1).png" alt="">
+                    <p>Our Purpose Is To Sustainably Make The Pleasure And Benefits Of Shopping Accessible To The World.
+                        We
+                        Got You Covered
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Link</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - GOD GRACE STORE INC.</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

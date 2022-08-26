@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roar | Bikes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo/logo-roar-bikes.png"
+                            alt="picture of roar bikes logo"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="#">Book Online</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="contact-page.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="images/icons/menu.png" alt="picture of menu icon" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row top">
+                <div class="col-2 main-content">
+                    <h1>Mobile bike repairs.</h1>
+                    <p>Many people have difficulty getting their bikes to a bike shop. We call to your office or home
+                        anywhere in greater
+                        Dublin.</p>
+                    <p>Fast, convenient bike servicing with up-front pricing. All without the hassle of taking your bike
+                        into a shop.</p>
+                    <a href="" class="btn">Book Online</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/background/repair-service.jpg" alt="Picture of man repairing bike in Dublin" class="">
+                </div>
+            </div>
+            <div class="small-container">
+                <div class="row hero">
+                    <div class="card card-1 col-3">
+                        <img src="images/icons/icon-bus.png" alt="icon of service bus" class="icon">
+                        <h1>Book Online</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem eius tempora, cupiditate
+                            expedita eligendi quas molestias!</p>
+                    </div>
+                    <div class="card card-2 col-3">
+                        <img src="images/icons/icon-wrench.png" alt="icon of wrench" class="icon">
+                        <h1>Servive Types</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem eius tempora, cupiditate
+                            expedita eligendi quas molestias!</p>
+                    </div>
+                    <div class="card card-3 col-3">
+                        <img src="images/icons/icon-phone.png" alt="icon of phone" class="icon">
+                        <h1>Call for Advice</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem eius tempora, cupiditate
+                            expedita eligendi quas molestias!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="small-container ">
+                <div class="row test">
+                    <div class="user user-1 col-2">
+                        <p>
+                            "I would like to personally thank you for your outstanding product. You guys rock! It's all
+                            good. I can't say enough
+                            about Roar Cycles."
+                            - Tammara I.
+                        </p>
+                    </div>
+                    <div class="user user-2 col-2">
+                        <p>
+                            "I would like to personally thank you for your outstanding product. You guys rock! It's all
+                            good. I can't say enough
+                            about Roar Cycles."
+                            - Tammara I.
+                        </p>
+                    </div>
+                    <div class="user user-3 col-2">
+                        <p>
+                            "I would like to personally thank you for your outstanding product. You guys rock! It's all
+                            good. I can't say enough
+                            about Roar Cycles."
+                            - Tammara I.
+                        </p>
+                    </div>
+                    <div class="user user-4 col-2">
+                        <p>
+                            "I would like to personally thank you for your outstanding product. You guys rock! It's all
+                            good. I can't say enough
+                            about Roar Cycles."
+                            - Tammara I.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "2000px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+
+</html>

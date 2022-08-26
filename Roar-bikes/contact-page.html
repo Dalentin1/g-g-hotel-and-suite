@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roar | Bikes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo col-6">
+                    <a href="index.html"><img src="images/logo/logo-roar-bikes.png"
+                            alt="picture of roar bikes logo"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li class="box"><a href="#">Book Online</a></li>
+                        <li class="box"><a href="#">About</a></li>
+                        <li class="box"><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="images/icons/menu.png" alt="picture of menu" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="contact-row top">
+                <h1>Contact Us</h1>
+                <p>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to
+                    you within a matter of hours to help you.</p>
+                <form action="#">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <textarea placeholder="Your Message"></textarea>
+                </form>
+                <small>Sign up for our email newsletter</small>
+                <input type="checkbox" class="check-box">
+                <small>Preferred contact method</small>
+                <input type="radio" class="radio"><span>Email</span>
+                <input type="radio" class="radio"><span>Phone</span> <br>
+                <a href="#" class="btn-1">Send</a>
+            </div>
+            <div class="small-container">
+                <div class="row hero">
+                    <div class="card card-1 col-3">
+                        <img src="images/icons/icon-bus.png" alt="icon of service bus" class="icon">
+                        <h1>Book Online</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem eius tempora, cupiditate
+                            expedita eligendi quas molestias!</p>
+                    </div>
+                    <div class="card card-2 col-3">
+                        <img src="images/icons/icon-wrench.png" alt="icon of wrench" class="icon">
+                        <h1>Servive Types</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem eius tempora, cupiditate
+                            expedita eligendi quas molestias!</p>
+                    </div>
+                    <div class="card card-3 col-3">
+                        <img src="images/icons/icon-phone.png" alt="icon of phone" class="icon">
+                        <h1>Call for Advice</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem eius tempora, cupiditate
+                            expedita eligendi quas molestias!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "2000px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+
+</html>

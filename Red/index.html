@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redstore | Ecommerce Website Design</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        href="stylesheet">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="cart-fix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/90ac909758.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -20,25 +23,53 @@
         <!-- Main container -->
         <div class="container">
 
-            <!-- Navigation -->
-            <div class="navbar">
-                <!-- nav logo -->
-                <div class="logo">
-                    <a href="index.html"> <img src="images/logo.png" alt="picture of logo" width="125px"> </a>
+            <!-- header -->
+            <header class="container">
+                <!-- nav -->
+                <div class="nav container nav-bar">
+                    <a href="index.html"> <img src="images/logo.png" alt="picture of logo" width="125px" class="logo"> </a>
+            
+                    <!-- nav list -->
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="product.html">Product</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="account.html">Account</a></li>
+                        </ul>
+                    </nav>
+            
+                    <!-- image of cart and media query menu -->
+                    <img src="images/cart.png" alt="" id="cart-icon">
+                    <img src="images/menu.png" alt="picture of menu" class="menu-icon" onclick="menutoggle()">
+            
+                    <!-- cart -->
+                    <div class="cart">
+                        <h2 class="cart-title">Your cart</h2>
+            
+                        <!-- content -->
+                        <div class="cart-content">
+                            <div class="cart-box">
+            
+                            </div>
+            
+                        </div>
+            
+                        <!-- Total -->
+                        <div class="total">
+                            <div class="total-title">Total</div>
+                            <div class="total-price">$0</div>
+                        </div>
+            
+                        <!-- Buy Button -->
+                        <button type="button" class="btn-buy">Buy Now</button>
+            
+                        <!-- Cart close -->
+                        <img src="images/close (1).png" alt="" id="close-cart">
+                    </div>
                 </div>
-                <!-- nav list -->
-                <nav>
-                    <ul id="MenuItems">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="product.html">Product</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="account.html">Account</a></li>
-                    </ul>
-                </nav>
-                <a href="cart.html"> <img src="images/cart.png" alt="picture of cart" width="30px" height="30px"> </a>
-                <img src="images/menu.png" alt="picture of menu" class="menu-icon" onclick="menutoggle()">
-            </div>
+            </header>
 
             <!-- First main row  -->
             <div class="row">
@@ -440,21 +471,8 @@
     </div>
 
 
-    <!-- js for toggle menu -->
-    <script>
-        var MenuItems = document.getElementById("MenuItems");
-
-        MenuItems.style.maxHeight = "0px";
-
-        function menutoggle() {
-            if (MenuItems.style.maxHeight == "0px") {
-                MenuItems.style.maxHeight = "2000px"
-            }
-            else {
-                MenuItems.style.maxHeight = "0px"
-            }
-        }
-    </script>
+    <!-- js -->
+    <script src="main.js"></script>
 
 </body>
 

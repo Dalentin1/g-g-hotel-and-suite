@@ -7,39 +7,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Products-Redstore | </title>
     <link rel="stylesheet" href="style.css">
-    <link rel="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        href="stylesheet">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="cart-fix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/90ac909758.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!-- Main container -->
-    <div class="container">
+    
+<!-- header -->
+<header class="container">
+    <!-- nav -->
+    <div class="nav container nav-bar">
+        <a href="index.html"> <img src="images/logo.png" alt="picture of logo" width="125px" class="logo"> </a>
 
-        <!-- Navigation -->
-        <div class="navbar">
-            <!-- nav logo -->
-            <div class="logo">
-                <a href="index.html"> <img src="images/logo.png" alt="picture of logo" width="125px"> </a>
+        <!-- nav list -->
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+
+        <!-- image of cart and media query menu -->
+        <img src="images/cart.png" alt="" id="cart-icon">
+        <img src="images/menu.png" alt="picture of menu" class="menu-icon" onclick="menutoggle()">
+
+        <!-- cart -->
+        <div class="cart">
+            <h2 class="cart-title">Your cart</h2>
+
+            <!-- content -->
+            <div class="cart-content">
+                <div class="cart-box">
+
+                </div>
+
             </div>
-            <!-- nav list -->
-            <nav>
-                <ul id="MenuItems">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="product.html">Product</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="account.html">Account</a></li>
-                </ul>
-            </nav>
 
-            <!-- image of cart and media query menu -->
-            <a href="cart.html"> <img src="images/cart.png" alt="picture of cart" width="30px" height="30px"> </a>
-            <img src="images/menu.png" alt="picture of menu" class="menu-icon" onclick="menutoggle()">
+            <!-- Total -->
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+
+            <!-- Buy Button -->
+            <button type="button" class="btn-buy">Buy Now</button>
+
+            <!-- Cart close -->
+            <img src="images/close (1).png" alt="" id="close-cart">
         </div>
     </div>
-
+</header>
 
     <!--Products -->
     <div class="small-container">
@@ -47,7 +72,7 @@
 
         <!-- Row housing title and select options -->
         <div class="row row-2">
-            <h2>All Products</h2>
+            <h2 class="section-title">All Products</h2>
             <select>
                 <option>Default sorting</option>
                 <option>Sort by price</option>
@@ -58,179 +83,189 @@
         </div>
 
         <!-- First row housing products -->
-        <div class="row">
-            <div class="col-4">
-                <img src="images/product-1.jpg" alt="Picture of new Product">
-                <h4>Red printed T-Shirt</h4>
+        <div class="row shop-content shop container">
+            <!-- box 1 -->
+            <div class="col-4 product-box">
+                <img src="images/product-1.jpg" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Red printed T-Shirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>$50.00</p>
+                <span class="price">$25</span>
+                <img src="images/cart.png" alt="" class="add-cart">
             </div>
 
-            <div class="col-4">
-                <img src="images/product-2.jpg" alt="Picture of new Product">
-                <h4>Red printed T-Shirt</h4>
+            <!-- box 2 -->
+            <div class="col-4 product-box">
+                <img src="images/product-2.jpg" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Red printed T-Shirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>$50.00</p>
+                <span class="price">$25</span>
+                <img src="images/cart.png" alt="" class="add-cart">
             </div>
 
-            <div class="col-4">
-                <img src="images/product-3.jpg" alt="Picture of new Product">
-                <h4>Red printed T-Shirt</h4>
+            <!-- box 3 -->
+            <div class="col-4 product-box">
+                <img src="images/product-3.jpg" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Red printed T-Shirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>$50.00</p>
+                <span class="price">$25</span>
+                <img src="images/cart.png" alt="" class="add-cart">
             </div>
 
-            <div class="col-4">
-                <img src="images/product-4.jpg" alt="Picture of new Product">
-                <h4>Red printed T-Shirt</h4>
+            <!-- box 4 -->
+            <div class="col-4 product-box">
+                <img src="images/product-4.jpg" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Red printed T-Shirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>$50.00</p>
+                <span class="price">$25</span>
+                <img src="images/cart.png" alt="" class="add-cart">
             </div>
+
         </div>
 
         <!-- Second row housing products -->
-        <div class="row">
-            <div class="col-4">
-                <img src="images/product-5.jpg" alt="Picture of new Product">
-                <h4>Red printed T-Shirt</h4>
+        <div class="row shop-content shop container">
+            <!-- box 5 -->
+            <div class="col-4 product-box">
+                <img src="images/product-5.jpg" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Red printed T-Shirt</h4>
                 <div class="rating">
-                    <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>$50.00</p>
+                <span class="price">$25</span>
+                <img src="images/cart.png" alt="" class="add-cart">
             </div>
-
-            <div class="col-4">
-                <img src="images/product-6.jpg" alt="Picture of new Product">
-                <h4>Red printed T-Shirt</h4>
+            
+            <!-- box 6 -->
+            <div class="col-4 product-box">
+                <img src="images/product-6.jpg" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Red printed T-Shirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>$50.00</p>
+                <span class="price">$25</span>
+                <img src="images/cart.png" alt="" class="add-cart">
             </div>
-
-            <div class="col-4">
-                <img src="images/product-7.jpg" alt="Picture of new Product">
-                <h4>Red printed T-Shirt</h4>
+            
+            <!-- box 7 -->
+            <div class="col-4 product-box">
+                <img src="images/product-7.jpg" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Red printed T-Shirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>$50.00</p>
+                <span class="price">$25</span>
+                <img src="images/cart.png" alt="" class="add-cart">
             </div>
-
-            <div class="col-4">
-                <img src="images/product-8.jpg" alt="Picture of new Product">
-                <h4>Red printed T-Shirt</h4>
+            
+            <!-- box 8 -->
+            <div class="col-4 product-box">
+                <img src="images/product-8.jpg" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Red printed T-Shirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>$50.00</p>
+                <span class="price">$25</span>
+                <img src="images/cart.png" alt="" class="add-cart">
             </div>
         </div>
 
         <!-- Third row housing products -->
-        <div class="row">
-            <div class="col-4">
-                <img src="images/product-9.jpg" alt="Picture of new Product">
-                <h4>Red printed T-Shirt</h4>
+        <div class="row shop-content shop container">
+            <!-- box 9 -->
+            <div class="col-4 product-box">
+                <img src="images/product-9.jpg" alt="Picture of new Product" class="product-img">
+                <h4 class="product-title">Red printed T-Shirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>$50.00</p>
+            <span class="price">$25</span>
+            <img src="images/cart.png" alt="" class="add-cart">
             </div>
-
-            <div class="col-4">
-                <img src="images/product-10.jpg" alt="Picture of new Product">
-                <h4>Red printed T-Shirt</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
+        <!-- box 10 -->
+        <div class="col-4 product-box">
+            <img src="images/product-10.jpg" alt="Picture of new Product" class="product-img">
+            <h4 class="product-title">Red printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                <i class="fa fa-star-o"></i>
                 </div>
-                <p>$50.00</p>
+            <span class="price">$25</span>
+            <img src="images/cart.png" alt="" class="add-cart">
             </div>
-
-            <div class="col-4">
-                <img src="images/product-11.jpg" alt="Picture of new Product">
-                <h4>Red printed T-Shirt</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
+        <!-- box 11 -->
+        <div class="col-4 product-box">
+            <img src="images/product-11.jpg" alt="Picture of new Product" class="product-img">
+            <h4 class="product-title">Red printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
                 </div>
-                <p>$50.00</p>
+            <span class="price">$25</span>
+            <img src="images/cart.png" alt="" class="add-cart">
             </div>
-
-            <div class="col-4">
-                <img src="images/product-12.jpg" alt="Picture of new Product">
-                <h4>Red printed T-Shirt</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
+        <!-- box 12 -->
+        <div class="col-4 product-box">
+            <img src="images/product-12.jpg" alt="Picture of new Product" class="product-img">
+            <h4 class="product-title">Red printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
                 </div>
-                <p>$50.00</p>
+            <span class="price">$25</span>
+            <img src="images/cart.png" alt="" class="add-cart">
             </div>
         </div>
 
@@ -243,7 +278,6 @@
             <span>&#8594</span>
         </div>
     </div>
-
 
     <!-- Footer -->
     <div class="footer">
@@ -292,21 +326,9 @@
     </div>
 
 
-    <!-- js for toggle menu -->
-    <script>
-        var MenuItems = document.getElementById("MenuItems");
+    <!-- Js-->
+    <script src="main.js"></script>
 
-        MenuItems.style.maxHeight = "0px";
-
-        function menutoggle() {
-            if (MenuItems.style.maxHeight == "0px") {
-                MenuItems.style.maxHeight = "2000px"
-            }
-            else {
-                MenuItems.style.maxHeight = "0px"
-            }
-        }
-    </script>
 
 </body>
 
