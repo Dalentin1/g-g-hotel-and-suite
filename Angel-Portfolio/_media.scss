@@ -1,3 +1,25 @@
+@media screen and (max-width:375px) {
+.right-header {
+    p {
+        padding-right: 90px !important;
+    }
+}
+
+.contact-content-con {
+     min-height: 120vh !important;
+    .contact-item {
+       .mobi {
+        font-size: 0.6rem !important;
+       }
+    }
+    .right-contact {
+        .submit-btn {
+            margin-top: -20px !important;
+        }
+    }
+}
+}
+
 @media screen and (max-width:775px) {
     header {
         padding: 0;
@@ -11,7 +33,7 @@
             padding-left: 10px;
         }
         p {
-            font-size: 1rem !important;
+            font-size: 0.8rem !important;
             margin-right: -135px !important;
             text-align: center;
             padding-right: 30px;
@@ -112,7 +134,7 @@
     }
 
     .contact-content-con {
-        min-height: 100vh !important;
+        min-height: 90vh;
         .contact-item {
             margin-left: -20px !important;
         }
@@ -138,14 +160,9 @@
         .right-contact {
             width: 100%;
             .submit-btn {
-                margin-top: 40px;
+                margin-top: -20px;
+                margin-bottom: 15px;
             }
-        }
-    }
-
-    .main-title {
-        .bg-text {
-            font-size: 2.7rem !important;
         }
     }
 
@@ -174,9 +191,6 @@
 .main-title {
         h2 {
             font-size: 2.5rem !important;
-        }
-        .bg-text {
-            font-size: 2.8rem !important;
         }
     }
 
@@ -254,7 +268,7 @@
 
     .main-title {
         .bg-text {
-            font-size: 3rem !important;
+            font-size: 2.8rem !important;
         }
     }
 
