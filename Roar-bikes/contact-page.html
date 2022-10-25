@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roar | Bikes</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="height-fix.css">
 </head>
 
 <body>
@@ -34,11 +35,17 @@
                     <input type="email" placeholder="Your Email">
                     <textarea placeholder="Your Message"></textarea>
                 </form>
-                <small>Sign up for our email newsletter</small>
-                <input type="checkbox" class="check-box">
-                <small>Preferred contact method</small>
-                <input type="radio" class="radio"><span>Email</span>
-                <input type="radio" class="radio"><span>Phone</span> <br>
+                <div class="checkboxes">
+                    <div class="newsletter">
+                        <small>Sign up for our email newsletter</small>
+                        <input type="checkbox" class="check-box">
+                    </div>
+                    <div class="contact-method">
+                        <small>Preferred contact method</small>
+                        <input type="radio" class="radio"><span>Email</span>
+                        <input type="radio" class="radio"><span>Phone</span> <br>
+                    </div>
+                </div>
                 <a href="#" class="btn-1">Send</a>
             </div>
             <div class="small-container">

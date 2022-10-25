@@ -3,8 +3,8 @@ const sectBtns = document.querySelectorAll(".controlls");
 const sectBtn = document.querySelectorAll(".control");
 const allSections = document.querySelectorAll(".main-content");
 function PageTransitions() {
-  for (let i = 0; i < sectBtn.length; i++) {
-    sectBtn[i].addEventListener("click", function () {
+  for (let e = 0; e < sectBtn.length; e++) {
+    sectBtn[e].addEventListener("click", function (e) {
       let currentBtn = document.querySelectorAll(".active-btn");
       currentBtn[0].className = currentBtn[0].className.replace("active-btn","");
       this.className += " active-btn ";

@@ -161,7 +161,7 @@ section {
 }
 
 .theme-btn {
-  /* top: 5%; */
+  top: 5%;
   right: 3%;
   width: 60px;
   height: 60px;
@@ -236,7 +236,7 @@ section {
 .header-content .right-header p {
   margin: 1.5rem 0;
   line-height: 1.5rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .about-container {
@@ -456,6 +456,9 @@ section {
   grid-gap: 2rem;
   margin-top: 3rem;
 }
+.portfolios .hidden {
+  display: none;
+}
 .portfolios .portfolio-item {
   position: relative;
   border-radius: 15px;
@@ -520,6 +523,61 @@ section {
 .portfolio-item:hover .hover-item {
   opacity: 1;
   transform: scale(1);
+}
+
+.testimonal {
+  padding: 100px;
+}
+.testimonal .small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding: 70px 25px 0 25px;
+}
+.testimonal .small-container .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.testimonal .col-3 {
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 30px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.testimonal .col-3:hover {
+  transform: translateY(-10px);
+}
+.testimonal .col-3 .fa-quote-left {
+  font-size: 34px;
+  color: var(--color-secondary);
+}
+.testimonal .col-3 .rating .fa-star {
+  color: rgba(238, 171, 1, 0.6901960784);
+}
+.testimonal img {
+  width: 60px;
+  margin-top: 20px;
+  border-radius: 50%;
+  height: 60px;
+}
+.testimonal p {
+  font-size: 12px;
+  margin: 12px 0;
+  color: var(--color-grey-2);
+}
+.testimonal h3 {
+  font-weight: 600;
+  color: var(--color-white);
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.testimonal .last {
+  margin-bottom: 100px;
 }
 
 .contact-content-con {
@@ -791,11 +849,17 @@ section {
     padding-right: 6rem;
     margin-left: 0px !important;
   }
+  .portfolios .hidden {
+    display: block;
+  }
   .portfolios .portfolio-item {
     margin: auto !important;
   }
   .portfolios .portfolio-item img {
     max-width: 100% !important;
+  }
+  .portfolios .portfolio-item .hover-item {
+    width: 100% !important;
   }
   .blogs {
     grid-template-columns: 1fr !important;
@@ -850,6 +914,9 @@ section {
   }
   .controlls .control {
     margin: 1rem 0.3rem;
+  }
+  .small-container {
+    min-height: 385vh;
   }
 }
 @media screen and (max-width: 958px) {
@@ -935,6 +1002,9 @@ section {
   }
   .portfolios .portfolio-item img {
     max-width: 160%;
+  }
+  .portfolios .portfolio-item .hover-item {
+    width: auto;
   }
   .timeline {
     margin-left: -9rem;

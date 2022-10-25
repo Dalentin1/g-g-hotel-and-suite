@@ -15,18 +15,31 @@
         <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
 </head>
 <body>
-    <div class="container">
+    <!-- main container -->
+    <div class="container disable">
+
+        <!-- head title -->
         <h2>Image Editor</h2>
+
+        <!-- sub-container -->
         <div class="wrapper">
+
+            <!-- editor panel -->
             <div class="editor-panel">
+
+                <!-- Filter box -->
                 <div class="filter">
                     <label class="title">Filters</label>
+
+                    <!-- options box -->
                     <div class="options">
-                        <button>Brightness</button>
-                        <button>Saturation</button>
-                        <button>Inversion</button>
-                        <button>Grayscale</button>
+                        <button id="brightness" class="active">Brightness</button>
+                        <button id="saturation">Saturation</button>
+                        <button id="inversion">Inversion</button>
+                        <button id="grayscale">Grayscale</button>
                     </div>
+
+                    <!-- Slider box -->
                     <div class="slider">
                       <div class="filter-info">
                         <p class="name">Brightness</p>
@@ -35,17 +48,32 @@
                       <input type="range" value="100" min="0" max="200">
                     </div>
                 </div>
+
+                <!-- rotate box -->
                 <div class="rotate">
-                    <label class="title">Rotate & Flip</label>
+
+                    <!-- title -->
+                    <label class="title rot-title">Rotate & Flip</label>
                     <div class="options">
-                        <button><i class="fa-solid fa-rotate-left"></i></button>
-                        <button><i class="fa-solid fa-rotate-right"></i></button>
-                        <button>Inversion</button>
-                        <button>Grayscale</button>
+                        <button id="left"><i class="fa-solid fa-rotate-left"></i></button>
+                        <button id="right"><i class="fa-solid fa-rotate-right"></i></button>
+                        <button id="horizontal"><box-icon name="reflect-vertical"></box-icon></button>
+                        <button id="vertical"><box-icon name="reflect-horizontal"></box-icon></button>
                     </div>
                 </div>
             </div>
-            <div class="preview-img"></div>
+            <!-- placeholder-img -->
+            <div class="preview-img pick-img">
+                <img src="image/websiteplanet-dummy-600X400.png" alt="preview-img">
+            </div>
+        </div>
+        <div class="controls">
+            <button class="reset-filter">Reset Filters</button>
+            <div class="row">
+                <input type="file" class="file-input" accept="image/*" hidden>
+                <button class="choose-img">Choose Image</button>
+                <button class="save-img">Save Image </button>
+            </div>
         </div>
     </div>
 

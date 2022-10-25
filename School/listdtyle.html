@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li::before {
+            content: "\2022";
+            color: red;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="boxes">intership</li>
+            <li class="boxes">intership</li>
+            <li class="boxes">intership</li>
+            <li class="boxes">intership</li>
+        </ul>
+    </nav>
+
+
+</body>
+
+</html>

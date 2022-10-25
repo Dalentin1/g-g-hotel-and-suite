@@ -1,0 +1,1 @@
+Sorted the index page stiil need to work for the contact page

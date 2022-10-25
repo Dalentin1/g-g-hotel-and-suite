@@ -1,0 +1,106 @@
+@media screen and (max-width:375px) {
+    .main-container {
+        .small-container {
+            .forget {
+                margin-left: -40px !important;
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:390px) {
+    .main-container {
+        .small-container {
+            .create-btn {
+                margin-right: -700px !important ;
+                width: 250%;
+            }
+            .test {
+                .test1 {
+                    margin-right: 300px;
+                }
+            }
+            .forget {
+                margin-left: -20px;
+                a {
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width:482px) {
+    .main-container {
+        min-width: 163% !important;
+        .small-container {
+            .second {
+                margin-right: 740px;
+                width: 160px;
+                max-width: 30%;
+            }
+            .create-btn {
+                padding-right: 50px !important;
+            }
+            .test {
+                width: 130%;
+                max-width: 125%;
+            }
+            .create-section {
+                p {
+                    padding-right: 700px;
+                }
+            }
+            .forget {
+                 padding-left: 40px;
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .main-container {
+        .small-container {
+             .create-btn {
+            padding-right: 130px;
+            max-width: 270% !important;
+         }
+         a {
+            padding-left: 250px !important;
+         }
+    }
+    
+}
+}
+
+@media screen and (max-width:707px) {
+    .main-container {
+        .small-container {
+             .create-btn {
+            margin-left: 240px !important;
+            max-width: 160%;
+         }
+         a {
+            padding-left: 320px;
+         }
+    }
+    
+}
+}
+
+@media screen and (max-width:825px) {
+    .main-container {
+        min-width: 120%;
+         footer {
+            width: 200%;
+        }
+        .small-container {
+             .create-btn {
+            margin-left: 300px;
+         }
+        }
+        
+    }
+    
+}

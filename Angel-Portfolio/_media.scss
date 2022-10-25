@@ -112,10 +112,16 @@
         grid-template-columns: 1fr !important;
         padding-right: 6rem;
         margin-left: 0px !important;
+        .hidden {
+            display: block;
+        }
         .portfolio-item {
           margin: auto !important;
           img {
             max-width: 100% !important;
+          }
+          .hover-item {
+            width: 100% !important;
           }
         }
     }
@@ -184,6 +190,10 @@
         }
 
 
+    }
+    
+    .small-container {
+        min-height: 385vh;
     }
 }
 
@@ -286,6 +296,9 @@
         img {
             max-width: 160%;
             
+        }
+        .hover-item {
+            width: auto;
         }
     }
 }

@@ -1,10 +1,8 @@
 var MenuItems = document.getElementById("MenuItems");
 function menutoggle() {
-  if (MenuItems.style.maxHeight == "0px") {
-    MenuItems.style.maxHeight = "2000px";
-  } else {
-    MenuItems.style.maxHeight = "0px";
-  }
+   if (MenuItems.style.transform === "translateY(-200%)") {
+     MenuItems.style.transform = "translateY(0%)";
+   } else MenuItems.style.transform = "translateY(-200%)";
 }
 var LoginForm = document.getElementById("LoginForm");
 var RegForm = document.getElementById("RegForm");
