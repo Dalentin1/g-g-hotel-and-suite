@@ -1,4 +1,0 @@
-I completed this code at 6:56pm took me 6days to write.
-To my future self the fix.html is a different type of product page incase you might want a change in the future
-the cart is embebed inside the main body active by a function body. Also the cart-fix-css is a main style sheet to the fix.html but aslo an supporting sheet for the main sheet of the whole website. use it to style the hidden cart and few attribute.   you have to uncomment most rules if you intend to use it as a main style to the fix.html.
-main.js is the javascript to the whole code i created product-detail.js to enable product product-detail page to run its functions its also holds the whole javascript to this code but only set to detail-product-page.html.
