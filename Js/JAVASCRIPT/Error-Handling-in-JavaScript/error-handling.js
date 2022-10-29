@@ -24,4 +24,17 @@ try {
     console.log(error.message);
 }
 // N.B you should note if the function "fun1()" is called outside the try block you woulld get a ReferenceError on your console
-// you can also get the default error printed on the console see the catch block above 
+// you can also get the default error printed on the console see the catch block above
+// now we're left with the finally block this is different from the try-catch block above whatever statement is in the finally block is always executed
+finally {
+    console.log("This block will execute. No matter whart!")
+}
+
+// we also have the throw keyword in javaScript you can use this to throw a customisable error in the program see example below
+var a = 9
+if (a < 10) {
+    throw new Error("This is a customisable error message ")
+} 
+else {
+    console.log("Working as expected ")
+}
