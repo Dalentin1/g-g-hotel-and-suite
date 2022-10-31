@@ -14,7 +14,7 @@ CLASS 3
 Date:15/9/2022
 Time: start:4:10pm end:6:00pm
 Learned about:
-Control-statements(IFElSE STATEMENT, SWITCH-CASE-CONTROL-STATEMENT)
+Control-statements(IFElSE STATEMENT, SWITCH-CASE-CONTROL-STATEMENT) (conculsion)
 
 CLASS 4
 Date:16/9/2022
@@ -26,19 +26,19 @@ CLASS 5
 Date:17/9/2022
 Time: start:9:51pm end:11:30pm
 Learned about:
-Strings In JavaScript, Arrays and Objects (still in progress)
+Strings In JavaScript (conculsion), Arrays and Objects (still in progress)
 
 CLASS 6
 Date:28/9/2022
 Time: start:11:38am end:4:28pm
 Learned about:
-Objects, JavaScript Constructor Function (still in progress)
+Objects (conculsion), JavaScript Constructor Function (still in progress)
 
 CLASS 7
 Date:28/9/2022
 Time: start:10:02pm end:12:03am
 Learned about:
-JavaScript Constructor Function, Prototype In JavaScript (still in progress)
+JavaScript Constructor Function (conculsion), Prototype In JavaScript (still in progress)
 
 CLASS 8
 Date:30/9/2022
@@ -50,43 +50,46 @@ CLASS 9
 Date:30/9/2022
 Time: start:12:50pm end:2:14pm
 Learned about:
-Prototype In JavaScript, Prototypal Inheritance In JavaScript (still in progress)
+Prototype In JavaScript (conculsion), Prototypal Inheritance In JavaScript (still in progress)
 
 CLASS 10
 Date:30/9/2022
 Time: start:09:00pm end:11:47pm
 Learned about:
-Prototypal Inheritance In JavaScript, Classes And Inheritance In JavaScript (still in progress)
+Prototypal Inheritance In JavaScript (conculsion), Classes And Inheritance In JavaScript (still in progress)
 
 CLASS 11
 Date:13/10/2022
 Time: start:11:00am end:5:02pm
 Learned about:
-Classes And Inheritance In JavaScript, Get Elements By TagName Method In JavaScript, Get Element By ClassName Method In Javascript, CallBack Function In JavaScript, Promises In JavaScript (Still in progress)
+Classes And Inheritance In JavaScript (conculsion), Get Elements By TagName Method In JavaScript, Get Element By ClassName Method In Javascript, CallBack Function In JavaScript, Promises In JavaScript (Still in progress)
 
 CLASS 12
 Date:13/10/2022
 Time: start:10:35pm end:12:24am
 Learned about:
-Promises In JavaScript (check this in the morning), Arrow Function In JavaScript (Still in progress)
+Promises In JavaScript (check this in the morning) (conculsion), Arrow Function In JavaScript (Still in progress)
 
 CLASS 13
 Date:19/10/2022
 Time: start:5:28pm end:6:33pm
 Learned about:
-Arrow Function In JavaScript, Timing Functions In JavaScript (Still in progress)
+Arrow Function In JavaScript (conculsion), Timing Functions In JavaScript (Still in progress)
 
 CLASS 13
 Date:20/10/2022
 Time: start:3:08pm end:4:54pm
 Learned about:
-Timing Functions In JavaScript, Async-await In JavaScript (Still in progress)
+Timing Functions In JavaScript (conculsion), Async-await In JavaScript (Still in progress)
 
 CLASS 14
 Date:23/10/2022
 Time: start:2:53pm end:4:13pm
 Learned about:
-Async-await In JavaScript, Error Handling In JavaScript (Still in progress)
+Async-await In JavaScript (conculsion), Error Handling In JavaScript (Still in progress)
 
-
-6:30pm
+CLASS 15
+Date:31/10/2022
+Time: start:10:13am end:2:50pm
+Learned about:
+Error Handling In JavaScript (conculsion), Regular Expressions in JavaScript, Metacharacters In JavaScript, Character Sets And Ranges In Regular Expression (Still in progress)
