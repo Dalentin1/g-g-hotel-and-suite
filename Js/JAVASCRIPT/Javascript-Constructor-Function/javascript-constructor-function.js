@@ -3,7 +3,10 @@
 // the first way is the object constructor method the other way of doing so is using the constructor function
 
 // the syntax of using an object constructor method
-var obj_name = new Object();
+var obj_name = new Object()
+{ 
+  
+};
 // you have the "var" keyword followed by the name of the object with an equal to sign then the "new" keyword followed by object starts with an capital "O".
 // with that syntax above you have created an empty object
 // in the syntax the object is the constructor, it creates an instance for the subject then assigns it to the object name, through which we can write and access the property of the object.

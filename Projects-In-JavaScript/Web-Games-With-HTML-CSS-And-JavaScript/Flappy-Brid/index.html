@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy | Bird</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- container for the game -->
+    <div id="game">
+        <!-- obstructions for avatar -->
+        <div id="block"></div>
+        <!-- holes for avatar to pass -->
+        <div id="hole"></div>
+        <!-- avatar -->
+        <div id="bird">
+            <img src="images/heart.png" alt="Image of Heart">
+        </div>
+    </div>
+    <div id="result">
+        <h1>Game Over</h1>
+        <p id="text"></p>
+        <button id="btn" onclick="location.reload()">Restart</button>
+        <!-- the location.reload() is a method used to reload the entire web page -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

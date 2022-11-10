@@ -20,13 +20,13 @@ CLASS 4
 Date:16/9/2022
 Time: start:2:32am end:3:50am
 Learned about:
-Functions, Scope of variables and Strings In JavaScript (still in progress)
+Functions, Scope of variables, Strings In JavaScript (still in progress)
 
 CLASS 5
 Date:17/9/2022
 Time: start:9:51pm end:11:30pm
 Learned about:
-Strings In JavaScript (conculsion), Arrays and Objects (still in progress)
+Strings In JavaScript (conculsion), Arrays, Objects (still in progress)
 
 CLASS 6
 Date:28/9/2022
@@ -93,3 +93,43 @@ Date:31/10/2022
 Time: start:10:13am end:2:50pm
 Learned about:
 Error Handling In JavaScript (conculsion), Regular Expressions in JavaScript, Metacharacters In JavaScript, Character Sets And Ranges In Regular Expression (Still in progress)
+
+CLASS 16
+Date:1/11/2022
+Time: start:12:16am end:2:16pm
+Learned about: Character Sets And Ranges In Regular Expression (conculsion), Short-Hand Character Class (Still in progress)
+
+CLASS 17
+Date:1/11/2022
+Time: start:4:58pm end:6:09pm
+Short-Hand Character Class (Still in progress)
+
+CLASS 18
+Date:3/11/2022
+Time: start:7:38am end:9:50pm
+Short-Hand Character Class (conculsion), Validation In JavaScript, Email Validation In JavaScript (Still in progress)
+
+CLASS 19
+Date:4/11/2022
+Time: start:3:00am end:5:50am
+Email Validation In JavaScript (conculsion), Debugging In JavaScript (Still in progress ______________ review quickly in the morning)
+
+CLASS 20
+Date:4/11/2022
+Time: start:11:46am end:1:54Pm
+Debugging In JavaScript (conculsion), ITERATORS AND GENERATORS IN JAVASCRIPT
+
+CLASS 21
+Date:7/11/2022
+Time: start:11:16am end:5:54pm
+ITERATORS AND GENERATORS IN JAVASCRIPT (conculsion), Maps In JAVASCRIPT, Sets IN JAVASCRIPT
+
+CLASS 22
+Date:8/11/2022
+Time: start:7:24am end:12:35pm
+Sets In JAVASCRIPT(Still in progress)
+
+CLASS 22
+Date:9/11/2022
+Time: start:8:04am end:10:04pm
+Sets In JAVASCRIPT (conculsion)

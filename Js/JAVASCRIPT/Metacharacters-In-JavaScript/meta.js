@@ -33,19 +33,17 @@ console.log(test1);
 // when the ^ character is used in a regular expression what happens is the program checks if the word in the regular expression matches the first word in the string, it doesn't matter if the word appears along the string statement, see syntax below
 
 let regex2 = /^Welcome/;
-let str3 = "Welcome to our store, we Welcome Family and Friends !!! "; // if you note there're some lorem text inbetween the Welcome word it still returns true and the exec method says its in the first index when you use the * character the only important this is the first and last alphabet
+let str3 = "Welcome to our store, we Welcome Family and Friends !!! "; 
 let output2 = regex2.test(str3);
 console.log(output2);
-
-// we're using this statement to check the index number of the word in the regular expression
 let test2 = regex2.exec(str3);
 console.log(test2);
 // this statement here would give you a true vaule and an array with welcome at 0 index of the string array
-// the statement below would give you a different result if you not the word welcome was at some part of the array but we still got a false and null vaule
-// this is because of the ^ character it checks if the word in the regular expression is the startng word for the string
+// the statement below would give you a different result if you notice the word welcome was at some part of the array but we still got a false and null vaule
+// this is because of the ^ character it checks if the word in the regular expression is the starting word for the string
 
 let regex3 = /^Welcome/;
-let str4 = " to our store, we Welcome Family and Friends !!! "; // if you note there're some lorem text inbetween the Welcome word it still returns true and the exec method says its in the first index when you use the * character the only important this is the first and last alphabet
+let str4 = " to our store, we Welcome Family and Friends !!! "; 
 let output3 = regex3.test(str4);
 console.log(output3);
 
