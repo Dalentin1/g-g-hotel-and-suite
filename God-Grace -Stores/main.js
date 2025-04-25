@@ -1,9 +1,9 @@
-var MenuItems = document.getElementById("MenuItems");
-function menutoggle() {
-   if (MenuItems.style.transform === "translateY(-200%)") {
-     MenuItems.style.transform = "translateY(0%)";
-   } else MenuItems.style.transform = "translateY(-200%)";
+function myFunction(x) {
+  x.classList.toggle("change");
+  document.getElementById("navMenu").classList.toggle("show");
+  
 }
+
 var LoginForm = document.getElementById("LoginForm");
 var RegForm = document.getElementById("RegForm");
 var Indicator = document.getElementById("Indicator");
@@ -53,7 +53,6 @@ function ready() {
     .addEventListener("click", buyButtonClicked);
 }
 function buyButtonClicked() {
-  alert("Your order is placed");
   var cartContent = document.getElementsByClassName("cart-content")[0];
   while (cartContent.hasChildNodes()) {
     cartContent.removeChild(cartContent.firstChild);
@@ -87,7 +86,6 @@ function addProductToCart(title, price, productImg) {
   var cartItems = document.getElementsByClassName("cart-content")[0];
   var cartItemsNames = cartItems.getElementsByClassName("cart-product-title");
   for (var i = 0; i < cartItemsNames.length; i++) {
-    alert("You have added this to cart");
     if (cartItemsNames[i].innerText == title) {
       return;
     }
@@ -124,5 +122,5 @@ function updatetotal() {
     total = total + price * quantity;
   }
   total = Math.round(total * 100) / 100;
-  document.getElementsByClassName("total-price")[0].innerText = "$" + total;
+  document.getElementsByClassName("total-price")[0].innerText = ["$"+ total]
 }

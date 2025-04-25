@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" description="Patrick Nnodu">
+    <title>Color Code Picker | Starter Edition version 1.0.0 | RGB</title>
+    <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/90ac909758.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container1">
+        <div class="navbar">
+            <div class="logo-text-box">
+                <a href="index.html">
+                    <h4 class="logo-text">Color Code Picker</h4>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links" id="navMenu">
+                    <li>
+                        <a href="index.html" title="Rgb-Page">RGB</a>
+                        <a href="hex.html" title="Hex-Page">hex</a>
+                        <a href="gradient.html" title="Gradient-Fixed-Page">gradient-FX</a>
+                        <a href="#" title="About-App" id="myBtn">About</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu-box">
+                <img src="image/menu.png" alt="Image of menu" class="menu-icon" onclick="menuFunction()">
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="small-container">
+                <main>
+                    <div class="main-title">
+                        <h2>co <span>lor</span><span class="bg-text">code Picker</span></h2>
+                    </div>
+                    <div class="container con-1" id="con-box">
+                        <h2 class="h2">background color : <span class="color">
+                                rgb(241, 245, 248)
+                            </span></h2>
+                        <button class="btn btn-hero btn--white" id="btn" title="click-button">click me</button>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-container">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <h3>Color Code Picker is an application built to help developers write code faster. It provides the
+                        color
+                        code to the developer, who copies the code and paste in their projects. This is an open source
+                        application, there's is also a pro version which comes with more functions</h3>
+                    <div class="collapsible-container col-con">
+                        <button class="collapsible">rgb</button>
+                        <div class="content">
+                            <small>
+                                <ul>
+                                    <li class="small-content">
+                                        The RGB feature displays a list of selected RGB (Red, Green, Blue) color code
+                                        whenever the user
+                                        clicks on the button.
+                                        In the pro edition of this application, the RGB feature randomly generates the
+                                        code randomly there's no limit to the RGB
+                                        color codes generated.
+                                    </li>
+                                </ul>
+                            </small>
+                        </div>
+                        <button class="collapsible black">hex</button>
+                        <div class="content">
+                            <small>
+                                <ul>
+                                    <li class="small-content">
+                                        The HEX feature displays a list of selected HEX color code whenever the user
+                                        clicks on the button.
+                                        In the pro edition of this applicationn the HEX feature randomly generated hex
+                                        color code whenever the user clicks on
+                                        the button.
+                                    </li>
+                                </ul>
+                            </small>
+                        </div>
+                        <button class="collapsible">gradient-fx</button>
+                        <div class="content">
+                            <small>
+                                <ul>
+                                    <li class="small-content">
+                                        The GRADIENT-FX feature displays a list of selected linear-gradient color codes
+                                        whenever the
+                                        user clicks on the button.
+                                    </li>
+                                </ul>
+                            </small>
+                        </div>
+                        <button class="collapsible black">Pro Edition</button>
+                        <div class="content">
+                            <small>
+                                <ul>
+                                    <li class="small-content">
+                                        The Pro-Edition of this application comes with more features, here are some list
+                                        of the new features and what they do
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        The RGB-RANDOM feature displays a list of randomly generated RGB color codes
+                                        whenever the
+                                        user clicks on the button.
+                                    </li>
+                                    <li>
+                                        The Gradient-RANDOM feature displays a list of randomly generated
+                                        linear-gradient color codes
+                                        whenever the user clicks on the button.
+                                        We aslo have the Deg- and Deg button, what this does is whenever either button
+                                        is clicked on it
+                                        adds a degree property from (10deg-360deg, -10deg/-360deg) to the randomly
+                                        generated
+                                        linear-gradient code.
+                                    </li>
+                                    <li>
+                                        The Gradient-RANDOM feature displays a list of randomly generated
+                                        radial-gradient color codes
+                                        whenever the user clicks on the button.
+                                        We aslo have the Deg- and Deg button, what this does is whenever either button
+                                        is clicked on it
+                                        adds a degree property from (10deg-360deg, -10deg/-360deg) to the randomly
+                                        generated
+                                        radial-gradient code.
+                                    </li>
+                                </ul>
+                            </small>
+                        </div>
+                        <button class="collapsible">developer</button>
+                        <div class="content">
+                            <small>
+                                <ul>
+                                    <li class="small-content">
+                                        I'm Patrick Nnodu a Web-Developer built this application with the intension of
+                                        helping
+                                        developers pick colors for their projects with ease.
+                                        This is an open source application i would glady work with any developer that
+                                        has any idea or
+                                        would like to help with maintaining this application, you can also take a look
+                                        at the raw code
+                                        at my github repository
+                                        <div class="icons">
+                                            <a href="https://www.instagram.com/angelous_graphics" target="_blank"
+                                                class="icon">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="http://twitter.com/Angel__Eze" target="_blank" class="icon">
+                                                <i class="fa-brands fa-twitter"></i>
+                                            </a>
+                                            <a href="https://wa.me/message/NL7PS2BB2W5PA1" target="_blank" class="icon">
+                                                <i class="fa-brands fa-whatsapp"></i>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <hr>
+            <p> Color Code Picker - Copyright 2022©</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

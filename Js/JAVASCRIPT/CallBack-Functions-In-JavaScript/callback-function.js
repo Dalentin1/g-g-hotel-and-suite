@@ -43,7 +43,7 @@ function person(brother, person2) { // passed the person2 function as an arugmen
 function person2() {
     console.log("My name is Paul")
 }
-person("Patrick", person2) // passed the function "person2" as an argument in the "person" call function this is important else you would get a syntax error
+person("Patrick", person2) // passed the function "person2" as an argument in the "person" call function this is important else you would get a syntax error and this can be called anywhere in then program
 
 
 

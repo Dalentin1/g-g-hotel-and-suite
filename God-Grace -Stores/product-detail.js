@@ -1,11 +1,3 @@
-var MenuItems = document.getElementById("MenuItems");
-function menutoggle() {
-  if (MenuItems.style.maxHeight == "0px") {
-    MenuItems.style.maxHeight = "2000px";
-  } else {
-    MenuItems.style.maxHeight = "0px";
-  }
-}
 var ProductImg = document.getElementById("ProductImg");
 var SmallImg = document.getElementsByClassName("small-img");
 SmallImg[0].onclick = function () {

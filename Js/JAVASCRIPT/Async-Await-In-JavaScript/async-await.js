@@ -21,7 +21,7 @@ function processOrder(order) {
     })
 }
 
-// the two functions each returns a promise the makeOrder function returns a promise and it wouold reslove it if the user selects Black coffee otherwise it would be rejected if the user picks a different type of coffee
+// the two functions each returns a promise the makeOrder function returns a promise and it would reslove it if the user selects Black coffee otherwise it would be rejected if the user picks a different type of coffee
 // the other function processOrder would always resolve
 // now we're going to call the statements using promises then we would change the same code using async-await
 
@@ -45,7 +45,7 @@ function placeOrder(chocolate) {
   return new Promise((resolve, reject) => {
     console.log(" Making a request for a " + chocolate);
     if (chocolate == "Hot chocolate") {
-      resolve(" Here is your chocolate, Have a nice day");
+      resolve(" Here's your Hot chocolate, Have a nice day");
     } else {
       reject(" Sorry! We serve Hot chocolate only."); 
     }
@@ -55,7 +55,7 @@ function placeOrder(chocolate) {
 function processOrder(order) {
   return new Promise((resolve, reject) => {
     console.log("Processing Order");
-    resolve(" Extra Infromation " + order);
+    resolve(" Thank You " + order);
   });
 }
 

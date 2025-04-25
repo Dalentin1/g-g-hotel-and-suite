@@ -9,7 +9,7 @@ var prom = new Promise(function (resolve, reject) {
   // if you look at the program here we created a new object the used the callback function and note the names decleared in the parenthesis can be change to whatever you want.
   // using the if eles conditional statement to call any of the two functions
   var drive = true; // would determine if the promise is resloved or rejected
-  if (drive) { // stating if the var drive has its vaule set true then the function below would be excuted 
+  if (drive ) { // stating if the var drive has its vaule set true then the function below would be excuted 
     resolve("Yes"); // passing the parameter vaule for the resolve parameter decleared above
   } else {
     reject("No"); // else the reject function would be excuted
@@ -17,7 +17,7 @@ var prom = new Promise(function (resolve, reject) {
 });
 
 // the next part of this program is to excute this promise to that we have to use two methods
-// we use the promise name followed by the data operator the the "then" method it is called when the promise is resloved or fulfilled, rejection of promises has its own syntax called "catch" see below
+// we use the promise name followed by the data operator the "then" method it is called when the promise is resloved or fulfilled, rejection of promises has its own syntax called "catch" see below
 // we then use a callback function in this method then pass the resloved vaule in the arugment followed by it's body.
 prom.then(function (resolve) {
     console.log(resolve + " the user knows how to drive. "); // if you notice we also had to pass the name of the reslove function in the console.log this way its vaule its dispalyed
@@ -28,7 +28,7 @@ prom.then(function (resolve) {
 
 // In the example below show a more complex example of promises
 // you would see that we're working with three different functions, lets say we need to learn promises in JavaScript but you have to learn about functions and callback function before getting to promises
-// so you won't be allowed to move to the next topic eles you have a good knowledge of the persent topic
+// so you won't be allowed to move to the next topic eles you have a good knowledge of the present topic
 // so we have created three function in which the current function depends on the previous function
 // so each functions decleared returns a promise
 
@@ -38,7 +38,7 @@ var functions = function () {
   });
 };
 
-var callback = function (message) { // passed the argument in the parenthesis so i could acces the vaule of the function when i print 
+var callback = function (message) { // passed the argument in the parenthesis so i could acces the vaule of the function when i print the arugment name could be an alphabet a dollar sign or an under scor
   return new Promise(function (resolve, reject) {
     resolve(message + " Learnt Callback Functions ");
   });
@@ -56,7 +56,7 @@ var promises = function (message) {
 
 
 functions().then(function(result){
-    return callback(result) // its a method "result" it gets the messages from the promises above
+    return callback(result) // its a parameter "result" it gets the messages from the promises above
 }).then(function (result) {
     return promises(result)
 }).then(function (result) {

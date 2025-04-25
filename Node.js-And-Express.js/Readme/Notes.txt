@@ -1,0 +1,37 @@
+Node js is an environment to run javascript outside the browser
+
+it was built on Chrome's V8 JS Engine and was created in 2009
+
+There're differencies between browser javascript and node javascript 
+
+The Browser Javascript has the following features
+
+DOM : has the document object model.
+
+Window : Has the window object.
+
+Interactive Apps : we build interactive apps with the browser.
+
+No Filesystem : we can't access the file system when working with browser js.
+
+Fragmentataion : when working with the browser js we need to check and see if our applications working with every user browser else we get bugs.
+
+ES6 Modules : in browser modules are optional
+
+While the Node Js has the following features
+
+No DOM : has no document object model.
+
+NO Window : the node js is run outside the browser environment so we can't access any of the browser features.
+
+Server Side Apps : we only work build server side applications with node js. So our code would be fully logic no graphical interface.
+
+Filesystem : we're able to access the filesystem when we work with node js, filesystem like info about our operating system, respones to network request.
+
+Versions : when we build with node js we don't always have to upgrade to a new node version even if we built withn an older version.
+
+CommonJs : in node js we have access to modules by default and we work with them constantly, and node js uses common js library for the modules.
+
+There're two ways to get node to evaulate our codes there're
+REPL stands for read evaul print loop
+CLI

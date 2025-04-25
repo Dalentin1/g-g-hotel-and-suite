@@ -10,7 +10,6 @@
 body {
     background-image: linear-gradient(to bottom right, #00F490, #00BBC9);
     background-repeat: no-repeat;
-    background-size: 1000%;
     min-height: 100vh;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -18,7 +17,6 @@ body {
 }
 
 .container {
-    max-width: 1300px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
@@ -40,7 +38,7 @@ nav li {
     padding: 17px 30px 15px 30px;
     margin-right: 40px;
     border: 1px solid #FFFFFF;
-    color: #FFFFFF;
+    color: #ffffff;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -359,6 +357,9 @@ h2 {
 }
 
 @media only screen and (max-width:796px) {
+    body {
+        padding: 0 !important;
+    }
     nav li {
         margin-right: 4px;
     }
@@ -457,5 +458,11 @@ h2 {
         margin-right: 38px;
         margin-left: -170px;
 
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    body {
+        padding: 40px 20px 60px 20px;
     }
 }

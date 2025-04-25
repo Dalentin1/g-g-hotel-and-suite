@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.0",
+    "newrelic": "^9.7.4"
+  }
+}
