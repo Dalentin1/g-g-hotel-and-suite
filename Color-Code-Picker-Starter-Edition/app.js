@@ -196,7 +196,9 @@ const colors = [
   "rgb(83, 83, 83)",
 ];
 const btn = document.getElementById("btn");
+
 const color = document.querySelector(".color");
+
 btn.addEventListener("click", function () {
 const randomNumber = getRandomNumber();
   console.log(randomNumber);

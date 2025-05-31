@@ -12,7 +12,7 @@ console.log(abc);
 
 // whenever we create an object using the object littera method then the object is created from object.prototype
 // when you open your console on your browser and you find your object when you click on it you would see a property with the name prototype when its clicked on you will see a list of methods already present in the object.prototype
-// and all the methods are already pre-definedm, or all javascript object inherit properties and methods from a prototype.
+// and all the methods are already pre-defined, or all javascript object inherit properties and methods from a prototype.
 
 // creating an object with a constructor function
 function xyz(name, subject, country) {
